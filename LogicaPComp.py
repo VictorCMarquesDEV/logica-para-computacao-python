@@ -1,6 +1,6 @@
 """
 
-Programa que verifica se a expressão lógica é verdadeira.
+Programa que verifica se a expressão lógica é válida.
 
 Proposições:
 De A até Z, exceto V e F
@@ -25,7 +25,7 @@ Conectivos:
 import string
 
 print(f'\033[0;49;32m-=-' * 20)
-print(f'|       Verificar se a expressão lógica é verdadeira       |')
+print(f'|       Verificar se a expressão lógica é válida     |')
 print(f'-=-' * 20, '\033[m')
 
 prop1 = list(input(f'Digite a expressão lógica: '))
